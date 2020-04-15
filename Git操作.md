@@ -38,6 +38,6 @@ git remote add origin git@github.com:wotuobang/myrepository.git
 
 git reset --hard 版本号  可回退至指定版本号
 
+然后git push -f origin master
 
 
-修改后
