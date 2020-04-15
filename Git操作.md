@@ -37,3 +37,7 @@ git remote add origin git@github.com:wotuobang/myrepository.git
 要想回退至上一个版本，只需输入命令git reset --hard HEAD^ 如果想回退至上上版本，则git reset --hard HEAD^^
 
 git reset --hard 版本号  可回退至指定版本号
+
+
+
+修改的内容
