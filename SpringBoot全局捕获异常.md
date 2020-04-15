@@ -53,7 +53,7 @@ public class BizException extends RuntimeException {
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-
+    
     /**
      * 处理自定义的业务异常
      * @param req
@@ -82,7 +82,7 @@ public class GlobalExceptionHandler {
     /**
      * 处理其他异常
      * @param req
-     * @param e
+     * @param e 
      * @return
      */
     @ExceptionHandler(value =Exception.class)
